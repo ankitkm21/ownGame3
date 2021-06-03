@@ -127,7 +127,7 @@ function draw(){
 
   if(frog1.isTouching(coingroup)){
     f1score = f1score+10;
-    coingroup.destroyEach();
+    coingroup[0].destroy();
   }
 
   if(frog2.isTouching(coingroup2)){
