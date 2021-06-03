@@ -141,7 +141,8 @@ function draw(){
   if(f2score===100){
     coingroup2.destroyEach();
   }
-
+  camera.position.x = frog1.x
+  camera.position.y = frog1.y
   drawSprites();
 
   textSize(30);
